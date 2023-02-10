@@ -11,4 +11,8 @@
   </div>
 <% end %>
 
+<% if logged_in? %>
 <%= render 'items/items', items: @items %>
+<% else %>
+<p>ログインすると、ここにwant or haveした商品が表示されます。</p>
+<% end %>

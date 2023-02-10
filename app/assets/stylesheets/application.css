@@ -67,9 +67,20 @@ p.item-title {
   overflow: hidden;
 }
 
-.item .buttons form {
+.item .want-buttons form {
   display: inline-block;
+  float: left;
   margin: 0 5px;
+  margin-right: 10px;
+  color: red;
+}
+
+.item .have-buttons form {
+  display: inline-block;
+  float: left;
+  margin: 0 5px;
+  margin-right: 10px;
+  color: yellow;
 }
 
 /* users */
